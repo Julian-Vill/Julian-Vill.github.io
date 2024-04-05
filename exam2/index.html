@@ -1,30 +1,143 @@
 <html>
 
 <head>
-    <title>MIS 3033 Exam 2 Spring 2024 [Exam Code Here] Julian Villaman</title>
-    <link rel="icon" href="static/img/head1.png"/>
-    <link rel="stylesheet" href="static/site.css"/>
+    <title>MIS 3033 Exam 2 Spring 2024 [RXQQ] Julian Villaman</title>
+    <link rel="icon" href="static/img/head1.png" />
+    <link rel="stylesheet" href="static/site.css" />
 
     <style>
-        body
+        body {
+            margin: 10px;
+        }
+
+        #mainDiv
         {
-            margin:10px;
+            width:1000px;
+            margin-left:auto;
+            margin-right:auto;
+        }
+
+        #div1
+        {
+            width:1000px;
+            height:100px;
+            display:flex;
+            flex-direction:row;
+            align-items:center;
+            justify-content:end;
+        }
+
+        #div2
+        {
+            display:flex;
+            flex-direction:row;
+            justify-content:center;
+        }
+
+        #leftDiv
+        {
+            width:480px;
+            border: 2px solid darkgray;
+            border-radius:10px;
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+        }
+
+        #top
+        {
+            width:480px;
+            border:2px solid darkgray;
+            border-radius:10px;
+        }
+
+        #bottom 
+        {
+            width: 480px;
+            border: 2px solid darkgray;
+            border-radius: 10px;
+        }
+
+        #div3
+        {
+            width:1000px;
+            height:50px;
+            display:flex;
+            flex-direction:row;
+            align-items:center;
+            justify-content:center;
+            background-color:aliceblue;
+            color:darkgray;
+            border-radius:5px;
         }
     </style>
 </head>
 
 <body>
-    [Exam Code Here]
-    <img src="static/img/a.svg" style="height:50px;"/>
-    <img src="static/img/b.svg" style="height:50px;"/>
-    <img src="static/img/css.svg" style="height:50px;"/>
-    <img src="static/img/head1.png" style="height:50px;"/>
-    <img src="static/img/head2.png" style="height:50px;"/>
-    <img src="static/img/html.svg" style="height:50px;"/>
-    <img src="static/img/javascript.svg" style="height:50px;"/>
-    <img src="static/img/linkedin.png" style="height:50px;"/>
-    <img src="static/img/logo.svg" style="height:50px;"/>
-    <img src="static/img/sqlite.svg" style="height:50px;"/>
+    [RXQQ]
+    <!--<img src="static/img/a.svg" style="height:50px;" />
+    <img src="static/img/b.svg" style="height:50px;" />
+    <img src="static/img/css.svg" style="height:50px;" />
+    <img src="static/img/head1.png" style="height:50px;" />
+    <img src="static/img/head2.png" style="height:50px;" />
+    <img src="static/img/html.svg" style="height:50px;" />
+    <img src="static/img/javascript.svg" style="height:50px;" />
+    <img src="static/img/linkedin.png" style="height:50px;" />
+    <img src="static/img/logo.svg" style="height:50px;" />
+    <img src="static/img/sqlite.svg" style="height:50px;" />-->
+
+    <div id="mainDiv">
+        <div id="div1">
+            <div style="font-size:30pt;color:dodgerblue;text-transform:uppercase;font-weight:bold;">
+                I LOVE PROGRAMMING!
+            </div>
+            <div>
+                <img src="static/img/a.svg" style="height:100px;" />
+            </div>
+        </div>
+
+
+        <div id="div2">
+
+            <div id="leftDiv">
+                <div style="color:dodgerblue;font-size:20pt;font-weight:bold;">
+                    I love MIS3033
+                </div>
+                <div>
+                    <img src="static/img/b.svg" style="width:400px;" />
+                </div>
+            </div>
+
+            <div id="rightDiv">
+                <div id="top">
+                    <span style="font-size:20px;font-weight:bold;background-color:lightskyblue;border-radius:5px;">What I already learned:</span>
+                    <ul>
+                        <li>C#</li>
+                        <li>C# Entity Framework</li>
+                        <li>Database Sqlite</li>
+                        <li>HTML & CSS</li>
+                    </ul>
+                </div>
+                <div id="bottom">
+                    <span style="font-size:20px;font-weight:bold;border-radius:5px;">What I am going to learn next:</span>
+                    <ol>
+                        <li>JavaScript</li>
+                        <li>BootStrap</li>
+                        <li>ASP.NET MVC</li>
+                        <li>Web REST API</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="div3">
+            <div>
+                Designed and Developed by Julian Villaman for MIS 3033 Exam 2
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
